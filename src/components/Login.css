@@ -1,0 +1,58 @@
+.btn-wrap {
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://blog.keydesign.com.br/wp-content/uploads/2018/04/homem-celular-feliz-1-1400x800-1017.jpg")
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 380px;
+}
+
+button {
+    background-color: black;
+    background-image: linear-gradient( to right, rgba(21, 166, 233, 0.767), transparent, rgb(67, 67, 221) ); ;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: absolute;
+    text-decoration: none;
+    display: absolute;
+    font-size: 16px;
+    border-radius: 4%;
+    transition: all ease 0.4s;
+}
+
+button{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+button:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+button:hover {
+    background-color:#000080;
+    transition: all ease 0.4s;
+}
+
+.icones-container {
+    padding-top: 10px;
+    padding-right: 5px;
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+
+
+
+}
